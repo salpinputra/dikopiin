@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&family=Sacramento&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: .5rem 5%;
+    background: #fdfdfd;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    transition: .3s ease-in-out;
+}
+.logo{
+    font-weight: bold;
+    cursor: default;
+    margin-right: 60px;
+    display: flex;
+}
+.logo-text img{
+    width: 100px;
+    height: 70px;
+}
+.navbarb a{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 500;
+    margin-right: 2rem;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+header.sticky{
+    padding: 1px 5%;
+    background: #fdfdfd;
+    transition: all .3s ease-in-out;
+}
+.lokasi ul li{
+    list-style: none;
+}
+.lokasi ul a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    gap: .6rem;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbarb ul{
+    margin-top: 1rem;
+}
+.navbarb{
+    margin-right: auto;
+}
+/* burger */
+.burger{
+    display: none;
+    position: relative;
+}
+.burger div{
+    width: 25px;
+    height: 2px;
+    background-color: #000;
+    margin: 7px;
+    transition: all 0.3s;
+    z-index: 100;
+}
+.icon-lok{
+    display: none;
+    cursor: pointer;
+}
+.social-links, li .bi{
+    font-size: 35px;
+    list-style: none;
+    color: #000;
+    display: flex;
+}
+.wrap-social-links{
+    background-color: 	#A9A9A9;
+}
+.about-us ul li{
+    list-style: none;
+}
+.list-footer-botom-menu{
+    list-style: none;
+    gap: 1rem;
+    margin-left: -2px;
+    margin: auto;
+}
+.list-footer-botom-menu li::after{
+    content: "|";
+    display: inline;
+    padding-left: 15px;
+}
+.heading-footer-menu ul li{
+    list-style: none;
+}
+.lead{
+    font-family: 'Quicksand',sans-serif;
+}
+.footer-menu,.footer-copyright,.footer-botom-menu{
+    background: #A9A9A9;
+}
